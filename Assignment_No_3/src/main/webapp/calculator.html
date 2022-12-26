@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+		<head>
+		<meta charset="ISO-8859-1">
+		<title>Calculator</title>
+		</head>
+	<body>
+	<form action="calServlet" method="post">
+		<div>
+			<label>Enter the first number</label>
+			<input type="text" name="num1">
+		</div>
+		<div>
+			<label>Enter the second number</label>
+			<input type="text" name="num2">
+		</div>
+		<div>
+		<input type="radio" name="Operation" value="add">Addition
+		<input type="radio" name="Operation" value="sub">Subtraction
+		<input type="radio" name="Operation" value="mul">Multiplication
+		<input type="radio" name="Operation" value="div">Division
+		</div>
+		<div>
+			<button type="submit">Calculate</button>	
+		</div>
+	</form>
+	</body>
+</html>
