@@ -41,6 +41,7 @@ public class calServlet extends HttpServlet
 			int res=n1/n2;
 			out.print("<h3>The Division isthis this this this: "+res+" </h3>");
 			out.print("<h3>The Division isthis this this this: "+res+" </h3>");
+			out.print("<h3>The Division isthis this this this: "+res+" </h3>");
 		}
 	
 	}
